@@ -2,3 +2,9 @@ name: essentialEmEvidencia
 version: '1.0'
 main: org.example.minevidencia.essentialEmEvidencia.EssentialEmEvidencia
 api-version: '1.21'
+
+commands:
+  speed:
+    description: Aplica efeito de velocidade ao jogador
+    usage: /<speed> [player] <0 - 4>
+    default: true
